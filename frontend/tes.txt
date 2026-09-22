@@ -1,0 +1,335 @@
+Frontend Flutter
+
+1. Tipe Data: Jenis nilai seperti int, String, double, bool, List, dan Map.
+
+
+2. Deklarasi: Cara membuat variabel, seperti var, final, const, dan dynamic.
+
+
+3. Widget: Komponen untuk membuat tampilan aplikasi.
+
+
+4. Stateless & StatefulWidget: Stateless tidak berubah, Stateful dapat berubah.
+
+
+5. Input Form: Digunakan untuk menerima data pengguna.
+
+
+6. Navigator: Digunakan untuk berpindah halaman.
+
+
+7. Package: Library tambahan, contohnya http.
+
+
+8. Asset & Fonts: Gambar dan jenis huruf yang ditambahkan ke project.
+
+
+9. REST API: Penghubung Flutter dengan backend.
+
+
+10. Implementasi REST API: Mengambil data API dan menampilkannya di aplikasi.
+
+
+================================================================================
+
+Frontend Flutter
+
+1. Tipe Data: Jenis nilai seperti int, String, double, bool, List, dan Map.
+
+
+2. Deklarasi: Cara membuat variabel, seperti var, final, const, dan dynamic.
+
+
+3. Widget: Komponen untuk membuat tampilan aplikasi.
+
+
+4. Stateless & StatefulWidget: Stateless tidak berubah, Stateful dapat berubah.
+
+
+5. Input Form: Digunakan untuk menerima data pengguna.
+
+
+6. Navigator: Digunakan untuk berpindah halaman.
+
+
+7. Package: Library tambahan, contohnya http.
+
+
+8. Asset & Fonts: Gambar dan jenis huruf yang ditambahkan ke project.
+
+
+9. REST API: Penghubung Flutter dengan backend.
+
+
+10. Implementasi REST API: Mengambil data API dan menampilkannya di aplikasi.
+
+
+============================================================================================================
+
+1. Apa itu REST?
+REST (Representational State Transfer) adalah gaya arsitektur atau sekumpulan aturan untuk merancang sistem komunikasi berbasis web (biasanya API).
+
+Dalam REST, data dianggap sebagai "Resource" (sumber daya) yang bisa diakses menggunakan protokol standar HTTP. REST menetapkan bagaimana sebuah client (seperti aplikasi HP atau website) dan server harus saling ngobrol menggunakan metode-metode standar, salah satunya ya si POST itu.
+
+2. Apa itu POST?
+POST adalah salah satu metode HTTP (verb/kata kerja) yang digunakan dalam protokol web (termasuk di dalam API REST).
+
+Fungsi utama metode POST adalah untuk mengirim data baru ke server.
+
+Contoh: Saat Anda membuat akun baru, mengirim komentar, atau mengunggah foto, aplikasi Anda akan menggunakan metode POST untuk mengirim data tersebut ke server.
+
+==============================================================================
+
+
+1. StatelessWidget (Widget Tanpa Status)
+Definisi: Widget yang bersifat statis atau tetap. Artinya, setelah widget ini dirender ke layar, tampilannya tidak bisa berubah lagi meskipun ada data atau interaksi pengguna yang terjadi.
+
+Kapan digunakan: Untuk membuat komponen yang sifatnya permanen atau hanya menampilkan data statis, seperti ikon, teks judul, atau tombol sederhana yang tidak berubah warna/statusnya.
+
+Contoh: Teks "Selamat Datang" atau logo aplikasi.
+
+2. StatefulWidget (Widget Berstatus)
+Definisi: Widget yang bersifat dinamis. Widget ini bisa melacak perubahan data (state) dan memperbarui tampilannya secara otomatis di layar setiap kali ada perubahan atau interaksi dari pengguna.
+
+Kapan digunakan: Untuk membuat komponen yang interaktif, seperti tombol Like yang bisa berubah warna saat diklik, form input teks, atau keranjang belanja yang jumlah itemnya bisa bertambah.
+
+Contoh: Tombol checkbox, slider volume, atau indikator loading.
+
+
+===============================================================================
+
+Backend
+
+11. REST API: Penghubung frontend dan backend.
+
+
+12. Endpoint: Alamat untuk mengakses API.
+
+
+13. HTTP Method: GET, POST, PUT, dan DELETE.
+
+
+14. HTTP Status Code: Penanda hasil request, seperti 200, 201, 400, 404, dan 500.
+
+
+15. JSON: Format pertukaran data.
+
+
+16. Express.js: Framework Node.js untuk membuat server.
+
+
+17. Routing: Mengatur alamat endpoint.
+
+
+18. Request & Response: Request adalah permintaan, response adalah hasil.
+
+
+19. CRUD: Create, Read, Update, dan Delete.
+
+
+20. CRUD REST API: CRUD dilakukan menggunakan HTTP method.
+
+
+21. Database: Tempat menyimpan data, contohnya MySQL.
+
+
+22. Validasi Data: Memeriksa data agar tidak kosong atau salah.
+
+
+
+Kesimpulan: Flutter membuat tampilan, Express.js mengolah data, REST API menghubungkan keduanya, dan database menyimpan data.
+
+Kalau mau, saya juga bisa ubah ini jadi versi rangkuman untuk hafalan ujian yang lebih pendek.
+
+
+
+
+
+
+
+
+
+KISI-KISI PEMROGRAMAN MOBILE — SOAL DAN JAWABAN
+
+1. TIPE DATA
+Soal: Apa saja tipe data yang terdapat pada Dart?
+
+Jawaban:
+Tipe data yang umum pada Dart adalah:
+- int → bilangan bulat
+- double → bilangan desimal
+- num → bilangan, bisa int atau double
+- String → teks
+- bool → true atau false
+- List → kumpulan data berurutan
+- Set → kumpulan data unik
+- Map → data dalam bentuk pasangan key dan value
+- dynamic → tipe data yang dapat berubah
+
+2. DEKLARASI
+Soal: Apa saja jenis deklarasi variabel yang terdapat pada Dart?
+
+Jawaban:
+Beberapa deklarasi variabel pada Dart:
+- var → tipe ditentukan otomatis oleh Dart.
+- final → nilainya hanya dapat diberikan satu kali.
+- const → nilai tetap dan harus diketahui saat compile time.
+- dynamic → tipe datanya dapat berubah.
+
+Contoh:
+var nama = "Budi";
+final umur = 17;
+const phi = 3.14;
+dynamic data = 10;
+
+3. WIDGET
+Soal: Apa yang dimaksud dengan widget dalam Flutter?
+
+Jawaban:
+Widget adalah komponen dasar untuk membangun tampilan dan fungsi aplikasi Flutter. Hampir semua bagian aplikasi Flutter merupakan widget, seperti Text, Button, Image, Container, dan Row.
+
+4. STATEFULWIDGET & STATELESSWIDGET
+Soal: Apa perbedaan StatelessWidget dan StatefulWidget?
+
+Jawaban:
+StatelessWidget:
+- Tidak memiliki state yang dapat berubah.
+- Cocok untuk tampilan yang tetap.
+- Tidak menggunakan setState().
+
+StatefulWidget:
+- Memiliki state yang dapat berubah.
+- Cocok untuk tampilan yang dinamis.
+- Dapat menggunakan setState().
+
+Contoh:
+Text yang hanya menampilkan tulisan → StatelessWidget.
+Counter yang angkanya bisa bertambah → StatefulWidget.
+
+5. INPUT FORM
+Soal: Bagaimana cara menerapkan input form pada aplikasi Flutter?
+
+Jawaban:
+Input form biasanya menggunakan:
+- Form
+- TextFormField
+- TextEditingController
+- validator
+
+Contoh:
+TextFormField(
+  decoration: InputDecoration(
+    labelText: "Nama",
+  ),
+  validator: (value) {
+    if (value == null || value.isEmpty) {
+      return "Nama wajib diisi";
+    }
+    return null;
+  },
+)
+
+6. NAVIGATOR
+Soal: Bagaimana cara kerja perpindahan halaman menggunakan Navigator di Flutter?
+
+Jawaban:
+Navigator digunakan untuk berpindah dari satu halaman ke halaman lainnya.
+
+Pindah halaman:
+Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => HalamanKedua(),
+  ),
+);
+
+Kembali ke halaman sebelumnya:
+Navigator.pop(context);
+
+push() digunakan untuk membuka halaman baru, sedangkan pop() digunakan untuk kembali.
+
+7. PACKAGE
+Soal: Apa yang dimaksud package dan bagaimana cara menerapkannya pada aplikasi Flutter?
+
+Jawaban:
+Package adalah library atau kumpulan kode yang dibuat untuk membantu menambahkan fitur tertentu ke aplikasi Flutter.
+
+Package ditambahkan melalui file pubspec.yaml.
+
+Contoh:
+dependencies:
+  http: ^1.0.0
+
+Kemudian jalankan:
+flutter pub get
+
+Setelah itu package dapat digunakan:
+import 'package:http/http.dart' as http;
+
+8. ASSET & FONTS
+Soal: Bagaimana cara menambahkan asset dan font pada project Flutter?
+
+Jawaban:
+Asset seperti gambar dapat dimasukkan ke folder project, misalnya:
+assets/images/
+
+Kemudian daftarkan di pubspec.yaml:
+
+flutter:
+  assets:
+    - assets/images/
+
+Untuk font:
+
+flutter:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+Setelah itu font dapat digunakan dalam Flutter melalui TextStyle.
+
+9. REST API
+Soal: Apa yang dimaksud REST API dan bagaimana cara menerapkannya pada project Flutter?
+
+Jawaban:
+REST API adalah cara aplikasi berkomunikasi dengan server menggunakan HTTP untuk mengambil atau mengirim data.
+
+Method yang umum:
+- GET → mengambil data
+- POST → menambahkan data
+- PUT/PATCH → mengubah data
+- DELETE → menghapus data
+
+Di Flutter, salah satu package yang sering digunakan adalah http.
+
+Contoh GET:
+final response = await http.get(
+  Uri.parse("https://example.com/api/data"),
+);
+
+10. IMPLEMENTASI REST API
+Soal: Bagaimana cara menampilkan data yang diperoleh dari REST API ke dalam aplikasi Flutter?
+
+Jawaban:
+Langkah umumnya:
+1. Membuat request ke API menggunakan http.
+2. Mendapatkan response dari server.
+3. Mengubah JSON menjadi data Dart.
+4. Menyimpan data.
+5. Menampilkan data menggunakan widget seperti ListView.
+
+Contoh:
+final response = await http.get(
+  Uri.parse("https://example.com/api/data"),
+);
+
+if (response.statusCode == 200) {
+  print(response.body);
+}
+
+Intinya:
+API → Request → Response JSON → Parsing → Widget Flutter → Tampilan.
+
+YANG PALING WAJIB DIHAFAL:
+Tipe data → deklarasi → widget → Stateful vs Stateless → Form → Navigator → Package → Asset/Font → REST API → implementasi API.

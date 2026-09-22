@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQuqU3cFYiAQD5LtWajkiKiW73JimfC1pvMx52VFmnA&s=10",
+    "teks": "bla3",
+    "title": "Data Science"
+  },
+  {
+    "id": 2,
+    "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQuqU3cFYiAQD5LtWajkiKiW73JimfC1pvMx52VFmnA&s=10",
+    "teks": "bla3",
+    "title": "Data Science"
+  },
+  {
+    "id": 3,
+    "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQuqU3cFYiAQD5LtWajkiKiW73JimfC1pvMx52VFmnA&s=10",
+    "teks": "bla3",
+    "title": "Data Science"
+  },
+  {
+    "id": 4,
+    "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQuqU3cFYiAQD5LtWajkiKiW73JimfC1pvMx52VFmnA&s=10",
+    "teks": "bla3",
+    "title": "Data Science"
+  }
+]
